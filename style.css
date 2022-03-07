@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'poppins' ,sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+  
+}
+
+body {
+    background-color:#f5f5f5;
+}
+h2 { text-align: center;
+}
+#demo {
+    padding: 4px 117px;
+
+    text-align:center
+}
+header {
+    background-color: rgb(230, 235, 238);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    border-radius:0px 0px 20px 20px;
+    box-shadow:16px 16px 10px #d7d7d7
+}
+.h {
+    text-decoration: none;
+    color:rgb(96, 99, 251);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1,7em;
+}
+.nave a {
+    text-decoration: none;
+    border-radius:20px;
+    font-weight: 600;
+    font-size: 1,3em;
+    padding-left: 20px;
+    transition:0.7s ease;
+    color:rgb(96, 99, 251);
+}
+
+.nave a:hover { 
+    text-transform: uppercase;
+    color:rgb(57, 40, 156);
+}
+
+article {
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 550px 550px;
+    padding: 40px 40px;
+    background-color:#3a6cf4;
+    width: 60%;
+    height:700px;
+    padding: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow:16px 16px 10px #d7d7d7;
+    border-radius:20px;
+    transition:0.7s ease;   
+}
+article:hover {
+    background-color:rgb(44, 47, 204);
+    transform: scale(1.1)
+}
+
+/* body {
+    background-color: rgb(54, 54, 54);
+    background-image:url(media/wavy.gif) ;
+    background-repeat:no-repeat;
+
+    background-position:top center;
+    background-attachment:scroll;
+} */
+img {
+    padding: 2px;
+    margin: 63px 210px 29px 171px;
+    width: 550px;
+    height: 600px;
+    background-color: rgb(36, 72, 88);
+    margin: 35px 185px ;
+    position: relative;
+    left:-81px;
+    top:16px;
+    border-radius:20px;
+
+}
+.color {
+    background-color:rgba(250, 252, 255, 0.842);
+    border-radius:20px ;
+    box-shadow: 16px 16px 10px #d7d7d7;
+}
